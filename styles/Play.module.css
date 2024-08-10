@@ -1,0 +1,88 @@
+/* styles/Play.module.css */
+
+.playbackContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 20px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.backButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.yantraContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.yantraBackground {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Image%2Fyantra-light-weight.jpg?alt=media&token=2757d7d1-874f-4c24-942b-c0f5d82389b3");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  z-index: 2;
+}
+
+.audioPlayer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.playPauseButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 32px;
+  background-color: transparent;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sliderContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.brightnessIcon {
+  color: #000;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.brightnessSlider {
+  width: 80%;
+  max-width: 300px;
+}

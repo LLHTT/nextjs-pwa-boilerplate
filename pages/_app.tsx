@@ -4,14 +4,13 @@ import "../styles/globals.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    // Determine whether it's day or night based on the user's local time
     const hours = new Date().getHours();
-    if (hours < 6 || hours > 18) {
-      document.body.classList.add("night");
-      document.body.classList.remove("day");
-    } else {
+    if (hours >= 6 && hours < 18) {
       document.body.classList.add("day");
       document.body.classList.remove("night");
+    } else {
+      document.body.classList.add("night");
+      document.body.classList.remove("day");
     }
   }, []);
 

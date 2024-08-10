@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import ReactPlayer from "react-player";
+import styles from "../styles/Play.module.css";
+import { FaArrowLeft, FaPlayCircle, FaPauseCircle } from "react-icons/fa";
+import { ImBrightnessContrast } from "react-icons/im";
 
 interface Song {
   name: string;
@@ -16,8 +19,9 @@ export default function PlayPage() {
   const router = useRouter();
   const { timeOfDay, numSongs } = router.query;
   const [songs, setSongs] = useState<Song[]>([]);
-  const [currentSongIndex, setCurrentSongIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [currentSongIndex, setCurrentSongIndex] = useState<number>(0);
+  const [isPlaying, setIsPlaying] = useState<boolean>(true);
+  const [brightness, setBrightness] = useState<number>(100);
 
   useEffect(() => {
     const fetchSongs = async () => {
@@ -62,17 +66,48 @@ export default function PlayPage() {
     }
   };
 
+  const handleBrightnessChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newBrightness = e.target.value;
+    setBrightness(parseInt(newBrightness));
+    document.body.style.filter = `brightness(${newBrightness}%)`;
+  };
+
   return (
-    <div>
-      {songs.length > 0 && (
-        <ReactPlayer
-          url={songs[currentSongIndex]?.url}
-          playing={isPlaying}
-          controls={true}
-          onEnded={handleSongEnd}
-        />
-      )}
-      <button onClick={handlePlayPause}>{isPlaying ? "Pause" : "Play"}</button>
+    <div className={styles.playbackContainer}>
+      <button className={styles.backButton} onClick={() => router.back()}>
+        <FaArrowLeft />
+      </button>
+      <div className={styles.yantraContainer}>
+        <div className={styles.yantraBackground}></div>
+      </div>
+      <div className={styles.controlsContainer}>
+        {songs.length > 0 && (
+          <ReactPlayer
+            url={songs[currentSongIndex]?.url}
+            playing={isPlaying}
+            controls={false}
+            onEnded={handleSongEnd}
+            width="100%"
+            height="50px"
+            className={styles.audioPlayer}
+          />
+        )}
+        <button onClick={handlePlayPause} className={styles.playPauseButton}>
+          {isPlaying ? <FaPauseCircle /> : <FaPlayCircle />}
+        </button>
+        <div className={styles.sliderContainer}>
+          <ImBrightnessContrast className={styles.brightnessIcon} />
+          <input
+            type="range"
+            id="brightness-slider"
+            min="1"
+            max="100"
+            value={brightness}
+            onChange={handleBrightnessChange}
+            className={styles.brightnessSlider}
+          />
+        </div>
+      </div>
     </div>
   );
 }
