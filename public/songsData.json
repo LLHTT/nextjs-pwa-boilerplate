@@ -1,0 +1,163 @@
+{
+  "morning": {
+    "Navel": [
+      {
+        "name": "Morning Navel Song 1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FNavel%2Fmorning_navel_1.mp3?alt=media&token=5479262d-9dc8-4d69-bd89-d6305dc5c751",
+        "duration": 180
+      },
+      {
+        "name": "Morning Navel Song 2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FNavel%2Fmorning_navel_2.mp3?alt=media&token=54776c70-17a5-44e8-8722-c7a7eb571827",
+        "duration": 200
+      },
+      {
+        "name": "Morning Navel Song 3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FNavel%2Fmorning_navel_3.mp3?alt=media&token=32e0e679-5109-4386-8b79-e6d19c66aee3",
+        "duration": 180
+      },
+      {
+        "name": "Morning Navel Song 4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FNavel%2Fmorning_navel_4.mp3?alt=media&token=e6390d6e-bc79-4e4a-8947-12830b47deae",
+        "duration": 180
+      },
+      {
+        "name": "Morning Navel Song 5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FNavel%2Fmorning_navel_5.mp3?alt=media&token=701a3223-3b7a-48d7-833b-8a31870b201f",
+        "duration": 180
+      }
+    ],
+    "Heart": [
+      {
+        "name": "Morning Heart Song 1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FHeart%2Fmorning_heart_1.mp3?alt=media&token=caf5ebe9-d578-4460-bf0d-b7bb529a026f",
+        "duration": 210
+      },
+      {
+        "name": "Morning Heart Song 2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FHeart%2Fmorning_heart_2.mp3?alt=media&token=b37298d6-fe48-48e0-abba-905731ff3548",
+        "duration": 210
+      },
+      {
+        "name": "Morning Heart Song 3",
+        "url": "",
+        "duration": 210
+      },
+      {
+        "name": "Morning Heart Song 4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FHeart%2Fmorning_heart_4.mp3?alt=media&token=08c8a4e5-4792-41bb-a422-dd567ac97c73",
+        "duration": 210
+      },
+      {
+        "name": "Morning Heart Song 5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FHeart%2Fmorning_heart_5.mp3?alt=media&token=d3383b39-1736-4e92-979c-48dd8ee278a7",
+        "duration": 210
+      }
+    ],
+    "Third-Eye": [
+      {
+        "name": "Morning Third-Eye Song 1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FThird-eye%2Fmorning_third_eye_1.mp3?alt=media&token=6811422c-74a7-4a9e-b865-80494648dc3d",
+        "duration": 190
+      },
+      {
+        "name": "Morning Third-Eye Song 2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FThird-eye%2Fmorning_third_eye_2.mp3?alt=media&token=e3a7d27a-6406-483f-bf17-eb34e0fc477e",
+        "duration": 190
+      },
+      {
+        "name": "Morning Third-Eye Song 3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FThird-eye%2Fmorning_third_eye_3.mp3?alt=media&token=04a3b798-9151-4ed4-b1e8-9a2283acd416",
+        "duration": 190
+      },
+      {
+        "name": "Morning Third-Eye Song 4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FThird-eye%2Fmorning_third_eye_4.mp3?alt=media&token=b9a69af5-c1b2-4316-a8b5-f1ea0cb10ff2",
+        "duration": 190
+      },
+      {
+        "name": "Morning Third-Eye Song 5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Morning%2FThird-eye%2Fmorning_third_eye_5.mp3?alt=media&token=73a2adda-928a-4a3b-bd0b-b8de61325596",
+        "duration": 190
+      }
+    ]
+  },
+  "evening": {
+    "Navel": [
+      {
+        "name": "Evening Navel Song 1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FNavel%2Fnight_navel_1.mp3?alt=media&token=81ba1828-d121-432f-b340-1243609133ad",
+        "duration": 180
+      },
+      {
+        "name": "Evening Navel Song 2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FNavel%2Fnight_navel_2.mp3?alt=media&token=706a1065-6cf5-459e-8186-5809d7b9515a",
+        "duration": 180
+      },
+      {
+        "name": "Evening Navel Song 3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FNavel%2Fnight_navel_3.mp3?alt=media&token=bf10ccd8-f662-42bf-86c0-4f657ada1406",
+        "duration": 180
+      },
+      {
+        "name": "Evening Navel Song 4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FNavel%2Fnight_navel_4.mp3?alt=media&token=282e9ff8-d477-4e6f-a7e5-725166e0028a",
+        "duration": 180
+      },
+      {
+        "name": "Evening Navel Song 5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FNavel%2Fnight_navel_5.mp3?alt=media&token=7a7e61b7-2d92-4922-91c1-7794c9f2e9e3",
+        "duration": 180
+      }
+    ],
+    "Heart": [
+      {
+        "name": "Evening Heart Song 1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FHeart%2Fnight_heart_1.mp3?alt=media&token=0544486d-fedf-4539-8b6d-b491606eb3cf",
+        "duration": 220
+      },
+      {
+        "name": "Evening Heart Song 2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FHeart%2Fnight_heart_2.mp3?alt=media&token=bd0201b5-2891-47dd-97b1-7a2968f25442",
+        "duration": 220
+      },
+      {
+        "name": "Evening Heart Song 3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FHeart%2Fnight_heart_3.mp3?alt=media&token=baef84a4-88e5-4ddf-b9bb-dce600a1fc12",
+        "duration": 220
+      },
+      {
+        "name": "Evening Heart Song 4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FHeart%2Fnight_heart_4.mp3?alt=media&token=3fb79193-c1e2-4f56-960e-7d79ca0a0790",
+        "duration": 220
+      },
+      {
+        "name": "Evening Heart Song 5",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FHeart%2Fnight_heart_5.mp3?alt=media&token=5b51e20e-613e-4d99-95bc-c37c741eb061",
+        "duration": 220
+      }
+    ],
+    "Third-Eye": [
+      {
+        "name": "Evening Third-Eye Song 1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FThird-eye%2Fnight_third_eye_2.mp3?alt=media&token=26036874-54cf-404f-95e7-a68a0e8c24a9",
+        "duration": 230
+      },
+      {
+        "name": "Evening Third-Eye Song 2",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FThird-eye%2Fnight_third_eye_3.mp3?alt=media&token=41ff6b4b-4ab8-4803-9051-c94f1817608e",
+        "duration": 230
+      },
+      {
+        "name": "Evening Third-Eye Song 3",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FThird-eye%2Fnight_third_eye_4.mp3?alt=media&token=96a5ec9d-46cd-4e8f-8b66-4b90f14ffc60",
+        "duration": 230
+      },
+      {
+        "name": "Evening Third-Eye Song 4",
+        "url": "https://firebasestorage.googleapis.com/v0/b/meditation-music-pwa.appspot.com/o/Evening%2FThird-eye%2Fnight_third_eye_5.mp3?alt=media&token=21baf190-e9a5-4cc9-8a61-af942cb512b0",
+        "duration": 230
+      }
+    ]
+  }
+}
